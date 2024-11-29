@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+	<meta name="title" content="SMAN 1 SAPE"/>
+	<meta name="description" content="sman1sape.sch.id"/>
+	<meta name="keywords" content="SMAN 1 SAPE"/>
+	<meta name="copyright" content="mysch.id"/>	
+	<meta name="author" content="mysch.id"/>	
+	<meta name="geo.placename" content="indonesia"/>
+	<meta name="geo.country" content="id"/>
+	<meta name="content-language" content="id"/>
+	
+	<meta property="fb:app_id" content="145000412781544" /> 
+	<meta property="og:title" content="SMAN 1 SAPE" />
+	<meta property="og:description" content="sman1sape.sch.id" />
+	<meta property="og:image" content="not-exists"/>
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="600" />
+	<meta property="og:image:alt" content="SMAN 1 SAPE" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://www.sman1sape.sch.id/" />
+	
+		
+    <link rel="icon" href="https://www.sman1sape.sch.id/upload/imagecache/35620425logosman1sape(1)-32x32.png" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="https://www.websitesekolah.my.id/cms_baru/theme/academy/style.css">
+    <link rel="stylesheet" href="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/default/style.css">
+    <link rel="stylesheet" href="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/default/font-awesome.min.css">
+    <link rel="stylesheet" href="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/default/datatables/dataTables.bootstrap4.min.css">
+    
+    
+        <!-- Kode Tambahan -->
+	    
+    <title>SMAN 1 SAPE</title>
+    <!--SCRIPT-->
+	<script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/js/jquery/jquery-2.2.4.min.js"></script>
+</head>
+<body>
+    <div class="top-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 top-left"><script type="text/javascript">
+    $(document).ready(function(){
+    var first = 0;
+    var speed = 400;
+    var pause = 3000;
+    function removeFirst(){
+    	first = $('ul#listticker li:first').html();
+    	$('ul#listticker li:first')
+    	.animate({opacity: 0}, speed)
+    	.fadeOut('slow', function() {$(this).remove();});
+    	addLast(first);
+    }
+    function addLast(first){
+    	last = '<li style="display:none">'+first+'</li>';
+    	$('ul#listticker').append(last)
+    	$('ul#listticker li:last')
+    	.animate({opacity: 1}, speed)
+    	.fadeIn('slow')
+    }
+    interval = setInterval(removeFirst, pause);
+    });
+</script>
+<style type="text/css">
+#listticker{ float:left; height:25px;  overflow:hidden;}
+#listticker li{ border:0; margin:0; padding:0; list-style:none;	 font-weight:400; }
+#listticker a:link, #listticker a:visited {  text-decoration:none; font-weight:400; }
+#listticker a:hover { text-decoration:none; color:#0000CC; font-weight:400; }
+</style>
+<b style="float:left;">NEWS UPDATE : &nbsp; </b>
+<ul id="listticker">
+</ul>             </div>
+            <div class="col-md-6 top-right">                    <div id="clock"></div>
+            		<script type="text/javascript">
+                		function showTime() {
+                		    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+                			var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                			var date = new Date();
+                			var day = date.getDate();
+                			var month = date.getMonth();
+                			var thisDay = date.getDay(),
+                			    thisDay = myDays[thisDay];
+                			var yy = date.getYear();
+                			var year = (yy < 1000) ? yy + 1900 : yy;
+                			
+                		    var a_p = "";
+                		    var today = new Date();
+                		    var curr_hour = today.getHours();
+                		    var curr_minute = today.getMinutes();
+                		    var curr_second = today.getSeconds();
+                		    if (curr_hour < 12) {
+                		        a_p = "AM";
+                		    } else {
+                		        a_p = "PM";
+                		    }
+                		    if (curr_hour == 0) {
+                		        curr_hour = 12;
+                		    }
+                		    if (curr_hour > 12) {
+                		        curr_hour = curr_hour - 12;
+                		    }
+                		    curr_hour = checkTime(curr_hour);
+                		    curr_minute = checkTime(curr_minute);
+                		    curr_second = checkTime(curr_second);
+                		    document.getElementById('clock').innerHTML=thisDay + ', ' + day + ' ' + months[month] + ' ' + year + ' ' + curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+                		}
+                 
+                		function checkTime(i) {
+                		    if (i < 10) {
+                		        i = "0" + i;
+                		    }
+                		    return i;
+                		}
+                		setInterval(showTime, 500);
+            		</script>
+            		            </div>
+        </div>
+    </div>
+</div>    <header class="header-area">
+        <div class="top-header">
+            <div class="container">
+                <div class="header-content align-items-center justify-content-between" >
+                    <div class="row">
+                        <div class="col-md-8">
+                            <a href="https://www.sman1sape.sch.id/" title="SMAN 1 SAPE">
+                                <img src="https://www.sman1sape.sch.id/upload/imagecache/17385628logosman1sape(1)-100x100.png" alt="SMAN 1 SAPE" align="left" width="80" style="margin:-5px 10px 0 0"/>
+                                <b style="font-size:28px;margin-top:20px;font-weight:400;text-transform:uppercase;">SMAN 1 SAPE</b><br/>
+                                <span style="font-size:16px;font-weight:400;">Humanis, Ekspresif, Berkarakter, Agamais & Terampil</span>
+                            </a>
+                        </div>
+                        <div class="col-md-4 header-right">
+                            <div class="login-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><div class="academy-main-menu mt-2">
+    <div class="classy-nav-container breakpoint-off">
+        <div class="container">
+            <nav class="classy-navbar justify-content-between" id="academyNav">
+                <div class="classy-navbar-toggler">
+                    <span class="navbarToggler"><span></span><span></span><span></span></span>
+                </div>
+                <div class="classy-menu">
+                    <div class="classycloseIcon">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <div class="classynav">
+                        <ul>                                        <li><a href="https://www.sman1sape.sch.id/">BERANDA</a></li>                                        <li><a href="https://www.sman1sape.sch.id/profil-sekolah">PROFIL SEKOLAH</a></li>                                        <li><a href="https://www.sman1sape.sch.id/akademik">AKADEMIK</a></li>                                        <li><a href="https://www.sman1sape.sch.id/berita">BERITA</a></li>                                                                             <li><a href="https://www.sman1sape.sch.id/pengumuman">PENGUMUMAN</a></li>                                        <li><a href="https://www.sman1sape.sch.id/kontak">KONTAK</a></li>                        </ul>
+                    </div>
+                </div>
+                <div class="calling-info">
+                    <div class="call-center">
+                        <a href="tel:085337772313" ><i class="icon-telephone-2"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>    </header>    	<section class="hero-area js-doc-top-el">
+        <div class="hero-slides owl-carousel">                <div class="single-hero-slide bg-img" style="background-image: url('https://www.sman1sape.sch.id/upload/picture/23629125DEPANSEKOLAH.jpeg');">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-12">
+                                <div class="hero-slides-content">
+                                    <h2 data-animation="fadeInUp" data-delay="400ms">SELAMAT DATANG</h2>
+                                    <a href="" target="_parent" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>        </div>
+    </section><section id='content' class="about-us-area section-padding-100 mt-4 js-doc-main-el">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">            				<div id="main">
+                    			<div class="main">
+                    				<div class="main_title"></div>
+                    				<div class="main_body"> </div>
+                    			</div>
+                    		</div>            				    <div id="main">
+                        			<div class="main">
+                        				<div class="main_title">SAMBUTAN KEPALA SEKOLAH</div>
+                        				<div class="main_body">
+<div class="row">
+    <div class="col-md-12">
+        <img class="img-fluid" src="https://www.sman1sape.sch.id/upload/imagecache/27554927IRHAM-300x300.png" alt="" width="300" align="left" style="margin:5px 20px 20px 0px">
+        <div style="text-align: center;"><font face="comic sans ms">"Sebagai lembaga pendidikan, SMA Negeri 1 Sape tanggap dengan perkembangan teknologi tersebut. Dengan dukungan SDM yang di miliki sekolah ini siap untuk berkompetisi dengan sekolah lain dalam pelayanan informasi publik. Teknologi Informasi Web khususnya, menjadi sarana bagi SMA Negeri 1 Sape untuk memberi pelayanan informasi secara cepat, jelas, dan akuntabel. Dari layanan ini pula, sekolah siap menerima saran dari semua pihak yang akhirnya dapat menjawab Kebutuhan masyarakat."</font><br></div><div style="text-align: center;"><br></div><div style="text-align: center;"><i>Kepala Sekolah SMA Negeri 1 Sape</i></div><div><div style="text-align: center;"><b>Irham, S.Pd.Kn.M.Pd</b></div>&nbsp; <div><br></div><div><br></div></div>    </div>
+                
+                </div></div>
+                        			</div>
+                        		</div>
+                        		<hr/>            				    <div id="main">
+                        			<div class="main">
+                        				<div class="main_title">BERITA</div>
+                        				<div class="main_body">    
+    <div class="academy-blog-posts">
+        <div class="row">                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="single-blog-post wow fadeInUp" data-wow-delay="300ms">
+                            <div class="blog-post-thumb mb-15">
+                                <img src
+                       ="https://www.sman1sape.sch.id/upload/imagecache/8804183Design(Cover)-480x360.png" alt="" style="width: 100%; margin: 0 auto;">
+                                </div>
+                                <div style="height:120px">
+                                  <h4><a href
+                      ="https://www.sman1sape.sch.id/berita/detail/984581/memorandum-of-understanding-sman-1-sape/" class="post-title">MEMORANDUM of UNDERSTANDING SMAN 1 SAPE</a></h4>
+                                  <div class="post-meta">
+                                    <p>Tanggal 11 Nov 2023, Dibaca226 kali</p>
+                                  </div>
+                                  </div>
+                                  </div>
+                                                      </div>                     <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="single-blog-post wow fadeInUp" data-wow-delay="300ms">
+                            <div class="blog-post-thumb mb-15">
+                                <img src="https://www.sman1sape.sch.id/upload/imagecache/98306792MerahPutihCerahIlustrasiUcapanHariPahlawanKirimanInstagram-480x360.jpg" alt="" style="width: 100%; margin: 0 auto;">
+                            </div>
+                            <div style="height:120px">
+                                <h4><a href="https://www.sman1sape.sch.id/berita/detail/984526/mengokohkan-persatuan-dan-kesatuan-bangsa/"  class="post-title">Mengokohkan Persatuan dan Kesatuan Bangsa</a></h4>
+                                <div class="post-meta">
+                                    <p>Tanggal 09 Nov 2023, Dibaca235 kali</p>
+                                </div>
+                            </div>
+                        </div>
+                         </div>
+                         
+    </div></div>
+                        			</div>
+                        		</div>
+                        		<hr/>            				    <div id="main">
+                        			<div class="main">
+                        				<div class="main_title">YOUTUBE</div>
+                        				<div class="main_body">
+                        				  	<div class="row">				<div class="col-md-6 col-https://youtu.be/43zAs9eWZPQ?si=meo-blKcgVbEhjeL-6 col-xs-6">
+					<div class="text-center mb-4" style="border:1px solid #DADADA;padding:15px;">
+					    <a class="popup-youtube" href="https://www.youtube.com/watch?v=J03G6l9i5K8"  title="PERSEMBAHAN MUSIKAL, DRAMATISASI PUISI "LAMUNAN YA" target="_blank">
+						    <img class="img-fluid" src="https://i3.ytimg.com/vi/J03G6l9i5K8/hqdefault.jpg" alt="PERSEMBAHAN MUSIKAL, DRAMATISASI PUISI "LAMUNAN YA" width="100%">
+						    <p><h6>PERSEMBAHAN MUSIKAL, DRAMATISASI PUISI "LAMUNAN YA</h6></p>
+						</a>
+					</div>
+				</div>				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="text-center mb-4" style="border:1px solid #DADADA;padding:15px;">
+					    <a class="popup-youtube" href="https://www.youtube.com/watch?v=VfMeigizO80"  title="Juara 2 Film Pendek FLS2N Tingkat Propinsi NTB" target="_blank">
+						    <img class="img-fluid" src="https://i3.ytimg.com/vi/VfMeigizO80/hqdefault.jpg" alt="Juara 2 Film Pendek FLS2N Tingkat Propinsi NTB" width="100%">
+						    <p><h6>Juara 2 Film Pendek FLS2N Tingkat Propinsi NTB</h6></p>
+						    </a>
+					</div>
+							</div>
+							    </div></div>
+                        			</div>
+                        		</div>
+                        		<hr/>            				    <div id="main">
+                        			<div class="main">
+                        				<div class="main_title">kegiatan sekolah</div>
+                        				<div class="main_body">    
+    <div class="academy-blog-posts">
+        <div class="row">                    <div class="col-md-6 col-sm-6 col-xs-6">
+                     <div class="single-blog-post wow fadeInUp" data-wow-delay="300ms">
+                       <div class="blog-post-thumb mb-15">
+                         <img src
+                         =/utsss/IMG-20241129-WA0024.jpg
+                     <div class="single-blog-post wow fadeInUp" data-wow-delay="300ms">
+                         <div class="blog-post-thumb mb-15">
+                           <img src    
+                          =/utsss/IMG-20241129-WA0018.jpg
+                     <div class="single-blog-post wow fadeInUp" data-wow-delay="300ms">
+                         <div class="blog-post-thumb mb-15">
+                           <img src    
+                          =/utsss/IMG_20241129_144959.jpg
+                       <div class="single-blog-post wow fadeInUp" data-wow-delay="300ms">
+                       <div class="blog-post-thumb mb-15">
+                         <img src
+                         =/utsss/IMG-20241129-WA0042.jpg
+   </p>
+   </div>
+   </div>
+   </section>
+   <footer class="footer">
+     <div class="footer-container">
+       <div class="footer-column">
+         <div class="penulis">
+           <img src="/utsss/SNOW_20241031_055949_263.jpg" alt="foto dania islamia" style="width:350px ;">
+           <div class="info-penulis">
+             <h3>Dania islamia</h3>
+             <p style="font-size: 30px;">Dania,yang sering di sapa nia,ia adalah mahasiswa semester 1 prodik Teknik Informatika yang sedang menempuh pendidikan di kampus STT Terpadu Nurulfikri. Landing page ini dibuat untuk memenuhi project ujian tengah semester mata kuliah pemrograman web
+              .</p><br>
+               
+
+    					</div>
+				
+            							</div>
+            						</div>			</div>
+		</div>
+	</div>
+</section>    <footer class="footer-area"><div class="main-footer-area" style="padding:50px 0px;">
+    <div class="container">
+        <div class="row">					<div class="col-12 col-sm-6 col-lg-3">
+    					<div id="footer-widget">
+    						<div class="footer-widget">
+    							<div class="footer-widget_title">KONTAK</div>
+    							<div class="footer-widget_body">
+    
+    <b><i class="fa fa-home"></i> Alamat :</b>
+	<p>Jalan Pelabuhan Sape</p>
+			<b><i class="fa fa-phone"></i> Telepon :</b>
+		<p>085337772313 - 082340616108</p>		<b><i class="fa fa-envelope"></i> Email :</b>
+		<p>info@sman1sape.sch.id</p>		<b><i class="fa fa-desktop"></i> Website :</b>
+		<p>www.sman1sape.sch.id</p>	<h5>Media Sosial :</h5>
+	<ul>
+	<li><i class="fa fa-facebook" style="width:20px;"></i> <a href="officialoperatordapodiksman1sape" title="Facebook" target="_blank">Facebook</a></li><li><i class="fa fa-instagram"  style="width:20px;"></i> <a href="officialdatadik.sma1sape" title="Instagram" target="_blank">Instagram</a></li><li><i class="fa fa-youtube"  style="width:20px;"></i> <a href="UC86YLAWV5OQQa4TlUcmuGgA" title="Youtube" target="_blank">Youtube</a></li><li><i class="fa fa-whatsapp"  style="width:20px;"></i> <a href="https://wa.me/085337772313" title="Whatsapp" target="_blank">085337772313</a></li>	</ul>
+    </div>
+    						</div>
+    					</div>
+					</div>					<div class="col-12 col-sm-6 col-lg-3">
+    					<div id="footer-widget">
+    						<div class="footer-widget">
+    							<div class="footer-widget_title">MEDIA SOSIAL</div>
+    							<div class="footer-widget_body"><div class="social-media">
+    <a href="officialoperatordapodiksman1sape" class="social-icon si-colored si-facebook">
+    	<i class="icon-facebook"></i>
+    	<i class="icon-facebook"></i>
+    </a>
+        <a href="officialdatadik.sma1sape" class="social-icon si-colored si-instagram">
+    	<i class="icon-instagram"></i>
+    	<i class="icon-instagram"></i>
+    </a>
+        <a href="UC86YLAWV5OQQa4TlUcmuGgA" class="social-icon si-colored si-youtube">
+    	<i class="icon-youtube"></i>
+    	<i class="icon-youtube"></i>
+    </a>
+        <a href="https://wa.me/085337772313" class="social-icon si-colored si-evernote">
+    	<i class="icon-whatsapp"></i>
+    	<i class="icon-whatsapp"></i>
+    </a>
+                <a href="officialoperatordapodiksman1sape">
+                <img src="https://storage.googleapis.com/s2.mysch.id/web_assets/facebook.jpeg" height="15%" width="15%">
+            </a>
+                        <a href="officialdatadik.sma1sape">
+                <img src="https://storage.googleapis.com/s2.mysch.id/web_assets/instagram.jpeg" height="15%" width="15%">
+            </a>
+                        <a href="UC86YLAWV5OQQa4TlUcmuGgA">
+                <img src="https://storage.googleapis.com/s2.mysch.id/web_assets/youtube.jpeg" height="15%" width="15%">
+            </a>
+                        <a href="https://wa.me/085337772313">
+                <img src="https://storage.googleapis.com/s2.mysch.id/web_assets/whatsapp.jpeg" height="15%" width="15%">
+            </a>
+            </div>
+</br>
+</br>
+</div>
+    						</div>
+    					</div>
+					</div>					<div class="col-12 col-sm-6 col-lg-3">
+    					<div id="footer-widget">
+    						<div class="footer-widget">
+    							<div class="footer-widget_title">SURVEI</div>
+    							<div class="footer-widget_body">    
+        <p><b>Seberapa puaskah anda dengan informasi yang kami berikan?</b></p>
+        <form action="https://www.sman1sape.sch.id/polling/send/" method="post">
+    		<input name="idpolling" type="hidden" value="6087">                    <input name="idhasil" type="radio" value="1" checked/>&nbsp; Sangat Puas<br>                    <input name="idhasil" type="radio" value="2" />&nbsp; Puas<br>                    <input name="idhasil" type="radio" value="3" />&nbsp; Biasa Saja<br>            <br/>
+            <input name="pilih" type="submit" value="PILIH" class="btn btn-primary">
+    		&nbsp;&nbsp;<a href="https://www.sman1sape.sch.id/polling/result/" title="Seberapa puaskah anda dengan informasi yang kami berikan?">Hasil Polling</a>
+        </form></div>
+    						</div>
+    					</div>
+					</div>					<div class="col-12 col-sm-6 col-lg-3">
+    					<div id="footer-widget">
+    						<div class="footer-widget">
+    							<div class="footer-widget_title">KALENDER</div>
+    							<div class="footer-widget_body">
+	<p class="text-center" style="font-size:20px">November 2024</p>
+	<table width="100%" id="kalender" cellpadding="0" cellspacing="0">
+		<tr align="center" height="30" 
+    		bgcolor='F0F0F0'		>
+			<th width="25" id="minggu">Mg</th>
+			<th width="25">Sn</th>
+			<th width="25">Sl</th>
+			<th width="25">Rb</th>
+			<th width="25">Km</th>
+			<th width="25">Jm</th>
+			<th width="25">Sb</th>
+		</tr><td height="30"></td><td height="30"></td><td height="30"></td><td height="30"></td><td height="30"></td>			<td height="38">
+				<span style="color:#000000">1				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">2				</span>  
+			</td></tr><tr valign="middle">			<td height="38">
+				<span style="color:#FF0000">3				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">4				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">5				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">6				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">7				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">8				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">9				</span>  
+			</td></tr><tr valign="middle">			<td height="38">
+				<span style="color:#FF0000">10				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">11				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">12				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">13				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">14				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">15				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">16				</span>  
+			</td></tr><tr valign="middle">			<td height="38">
+				<span style="color:#FF0000">17				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">18				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">19				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">20				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">21				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">22				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">23				</span>  
+			</td></tr><tr valign="middle">			<td height="38">
+				<span style="color:#FF0000">24				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">25				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">26				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">27				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">28				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">29				</span>  
+			</td>			<td height="38">
+				<span style="color:#000000">30				</span>  
+			</td></tr>	</table></div>
+    						</div>
+    					</div>
+					</div>		</div>
+	</div>
+</div><div class="bottom-footer-area">
+    <div class="container">
+        <p>SMAN 1 SAPE</p>
+    </div>
+</div>	</footer>
+	
+    <script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/js/bootstrap/popper.min.js"></script>
+    <script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/js/plugins/plugins.js"></script>
+    <script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/js/active.js"></script>
+    
+    <!--TABEL-->
+    <script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/default/datatables/jquery.dataTables.min.js"></script>
+    <script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/default/datatables/dataTables.bootstrap4.min.js"></script>
+    <script src="https://id-jkt01-dos.ifvirty.com/bucket-edutekstorage7dotco/themes/academy/default/datatables/datatables-demo.js"></script>
+    
+    <!--GALERI-->
+    	
+	<!--SUSPEND SITE-->
+</body>
+</html>
